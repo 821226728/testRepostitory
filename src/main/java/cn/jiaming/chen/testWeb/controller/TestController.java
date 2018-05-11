@@ -18,5 +18,6 @@ public class TestController {
         System.out.println("test");
         OutputStream out = response.getOutputStream();
         out.write("test".getBytes());
+        
     }
 }
